@@ -17,3 +17,7 @@ hello <- function() {
   print("Hello, world!")
 }
 # each funtion with own script, script saved in r directory, function name should be name of r scipt its within
+
+bennett <- function() {
+  print("Best, dog!")
+}
