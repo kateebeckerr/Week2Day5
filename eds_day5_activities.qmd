@@ -60,16 +60,45 @@ output inst 1 should be 2, should get an error
 
 ## Finding exploring and creating packages 
 
--   cran r archive network, built packages following very detailed set of restrictions or contents and formatting and styling (https://cran.r-project.org/web/views/)
+-   cran r archive network(Repo), built packages following very detailed set of restrictions or contents and formatting and styling (https://cran.r-project.org/web/views/)
 
 -   https://ropensci.org support and share software helpful for open data science and creating software and reproducible work
 
 -   PyPI python libraries
 
--   but google!!
+-   but google!! adn git hub!!!
 
--   open source: source software is software with source code anyone can inspect, modify and enhance
+-   open source: source software is software with source code that anyone can inspect, modify and enhance
+
+-   wrangling ::Dplyr
+
+-   static visualization : tidy verse
+
+-   maturity: how long package has been around for if stable, etc... time since first release and extent that a package has matured through use development adn subsequent release is it being updated?
+
+-   active development: people continuing to work on package, repsond to issues release new version (commits, issues, added feature)
+
+-   recently updated: how recent has the package been updated see commits and closed issues
+
+-   building packages you sue other packages (dependencies) well built packages try to minimize number of dependencies more likelihood of something to break
+
+-   git hub rep should be first place you look for package
+
+-   naniar: looks at missing data, methods for imputations, look at star count(100's = good)
+
+-    issues: how team members report bugs request features, closed if issue addressed
+
+-   citations: https://ropensci.org / can add citations in code, insert\> citations
 
 ```{r}
+#R:usecitation(packagename)
+#Python: need to search/create
+
+```
+
+-   directory tests on git hub in a package, tests created to automatically check, run all test files, if nothing returned all tests passed, for each function all unit tests show up
+
+```{r}
+
 
 ```
