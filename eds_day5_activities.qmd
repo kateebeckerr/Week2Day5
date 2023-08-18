@@ -1,0 +1,75 @@
+---
+title: "eds221-day5-activities"
+format: html
+editor: visual
+---
+
+unit test: formal automated check to make sure a piece (unit) of code is behaving unexpectedly
+
+testthat: provides functions that make it easy to describe what you expect a function to do including catching errors, warnings and messages
+
+expect_equal: does the function return an expected value
+
+expect_type: does function return expected type
+
+expect_length: if vector is returned is thee expected length true
+
+expenditure : does function return true
+
+## Test to test for output length
+
+```{r}
+fish_mass <- fucntion(alpha, beta, fish_length) {
+} 
+if (fish_length < 0 ) {
+stop("fish length must be greater than zero") 
+}
+mass <- alpha (fish_length ^beta) 
+```
+
+#### If \^ working expectedly
+
+-   if fish length \<0 : should stop function
+
+```{=html}
+<!-- -->
+```
+-   output should be numeric
+
+-   positive value for output
+
+```{r}
+expect_length(fish_mass(alpha = 1, beta = 2, fisih_length = 3), 1)
+```
+
+-   test length at these values if you use parameters output should be 1
+
+-   create a unit test for expectation the function will return a single value (vecot length of 1)
+
+-   expect length of returned vector for fish mass function evaluated at these values to be 1,
+
+-   if nothing is returned the unit test passes, otherwise an error
+
+ERROR
+
+```{r}
+ expect_length(fish_mass(alpha = 1, beta = 2, fisih_length = 3), 2)
+```
+
+output inst 1 should be 2, should get an error
+
+## Finding exploring and creating packages 
+
+-   cran r archive network, built packages following very detailed set of restrictions or contents and formatting and styling (https://cran.r-project.org/web/views/)
+
+-   https://ropensci.org support and share software helpful for open data science and creating software and reproducible work
+
+-   PyPI python libraries
+
+-   but google!!
+
+-   open source: source software is software with source code anyone can inspect, modify and enhance
+
+```{r}
+
+```
